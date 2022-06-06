@@ -1,0 +1,13 @@
+# POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+POKY_BBLAYERS_CONF_VERSION = "2"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  /media/lehin-nauwa/871eba24-1cbf-4ea6-b462-7aaca2abb8da/poky/meta \
+  /media/lehin-nauwa/871eba24-1cbf-4ea6-b462-7aaca2abb8da/poky/meta-poky \
+  /media/lehin-nauwa/871eba24-1cbf-4ea6-b462-7aaca2abb8da/poky/meta-yocto-bsp \
+  /media/lehin-nauwa/871eba24-1cbf-4ea6-b462-7aaca2abb8da/poky/meta-uvixOS \
+  "
